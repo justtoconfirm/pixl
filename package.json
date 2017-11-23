@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Front-end web library",
   "scripts": {
+    "build": "node-sass --include-path scss src/scss/main.scss dist/css/pixl.css && npm run beautify-css && npm run minify-css",
+    "beautify-css": "beautify-css dist/css/pixl.css dist/css/pixl.css",
+    "minify-css": "minify dist/css/pixl.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/justtoconfirm/pixl/issues"
   },
-  "homepage": "https://github.com/justtoconfirm/pixl#readme"
+  "homepage": "https://github.com/justtoconfirm/pixl#readme",
+  "devDependencies": {
+    "beautify-css": "^1.0.0",
+    "minifier": "^0.8.1",
+    "node-sass": "^4.7.2"
+  }
 }
