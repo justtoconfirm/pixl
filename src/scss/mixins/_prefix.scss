@@ -1,0 +1,23 @@
+// Mixin to apply vendor prefixes
+// @param $prop: property
+// @param $val: value
+// @param $prefixes: list of prefixes to be applied
+//
+// example:
+//
+// .element {
+//     @include prefix( 'border-radius', 5px, webkit moz ms o );
+// }
+//
+
+@mixin prefix( $prop, $val, $prefixes: webkit moz ms o ) {
+	@if $prefixes {
+		// Loop through each prefix listed
+		@each $prefix in $prefixes {
+			// Apply each prefix to the property and value
+			#{'-' + $prefix + '-' + $prop}: #{$val};
+		}
+	}
+	// Output the non-prefixed declaration
+	#{$prop}: #{$val};
+}
