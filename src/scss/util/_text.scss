@@ -1,29 +1,23 @@
-// Centre align text
 .text-center {
 	text-align: center;
 }
 
-// Left align text
 .text-left {
 	text-align: left;
 }
 
-// Right align text
 .text-right {
 	text-align: right;
 }
 
-// Makes all of the letters in the selected text uppercase.
-.text-uppercase {
-	text-transform: uppercase;
+.text-capitalize {
+	text-transform: capitalize;
 }
 
-// Makes all of the letters in the selected text lowercase.
 .text-lowercase {
 	text-transform: lowercase;
 }
 
-// Capitalizes the first letter of each word in the selected text.
-.text-capitalize {
-	text-transform: capitalize;
+.text-uppercase {
+	text-transform: uppercase;
 }

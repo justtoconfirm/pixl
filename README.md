@@ -18,3 +18,18 @@ $ npm install
 ```
 $ npm run build
 ```
+
+## Documentation
+
+### Utility Classes
+
+Text alignment.
+
+| Class              | Description                                                     |
+| ------------------ |:---------------------------------------------------------------:| 
+| `.text-center`     | Centre align text                                               |
+| `.text-left`       | Left align text                                                 |
+| `.text-right`      | Right align text                                                | 
+| `.text-capitalize` | Capitalizes the first letter of each word in the selected text. |
+| `.text-lowercase`  | Makes all of the letters in the selected text lowercase.        |
+| `.text-uppercase`  | Makes all of the letters in the selected text uppercase.        | 
