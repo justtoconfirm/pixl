@@ -23,9 +23,9 @@ $ npm run build
 
 Update `package.json` version number when on the `master` branch. This can be either: 
 
-* Major - x.0.0
-* Minor - 0.x.0
-* Patch - 0.0.x
+- `MAJOR` version when you make incompatible API changes,
+- `MINOR` version when you add functionality in a backwards-compatible manner, and
+- `PATCH` version when you make backwards-compatible bug fixes.
 
 Pixl follows [Semantic Versioning](https://semver.org/).
 
