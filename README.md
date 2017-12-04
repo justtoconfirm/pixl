@@ -26,7 +26,7 @@ $ npm run build
 Text alignment.
 
 | Class              | Description                                                     |
-| ------------------ |:---------------------------------------------------------------:| 
+| ------------------ | --------------------------------------------------------------- | 
 | `.text-center`     | Centre align text                                               |
 | `.text-left`       | Left align text                                                 |
 | `.text-right`      | Right align text                                                | 
