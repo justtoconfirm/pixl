@@ -1,0 +1,14 @@
+// Mixin to apply font-face
+// @param $font-family: The font file name without the file extension
+
+@mixin font-face( $font-family ) {
+	@font-face {
+            font-family: $font-family;
+            src: url( '../font/#{$font-family}.eot' );    // IE9 Compatibility modes
+            src: url( '../font/#{$font-family}.eot?#iefix' ) format( 'embedded-opentype' ),    // IE6-IE8
+                 url( '../font/#{$font-family}.woff2' ) format( 'woff2' ),    // Super modern browsers
+                 url( '../font/#{$font-family}.woff' ) format( 'woff' ),    // Modern browsers
+                 url( '../font/#{$font-family}.ttf' ) format( 'truetype' ),    // Safari, Android, iOS
+                 url( '../font/#{$font-family}.svg#{$font-family}' ) format( 'svg' );    // Legacy iOS
+	}
+}
