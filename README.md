@@ -54,3 +54,27 @@ Text alignment.
 | `.text-capitalize` | Capitalizes the first letter of each word in the selected text  |
 | `.text-lowercase`  | Makes all of the letters in the selected text lowercase         |
 | `.text-uppercase`  | Makes all of the letters in the selected text uppercase         | 
+
+### Mixins
+
+Vendor prefixes.
+
+```
+/*
+All vendor prefixes will be applied
+*/
+.element {
+    @include prefix( 'border-radius', 5px );
+}
+
+.element {
+    @include prefix( 'border-radius', 5px, webkit moz ms o );
+}
+
+/*
+Only the webkit vendor prefix will be applied
+*/
+.element {
+    @include prefix( 'border-radius', 5px, webkit );
+}
+```
