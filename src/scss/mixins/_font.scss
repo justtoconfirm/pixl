@@ -1,19 +1,5 @@
 // Mixin to apply font-face
-// @param $font-family: The file name of the font without the file extension
-//
-// example:
-// 
-// The @include directive is used to import font files into the framework
-// File extensions do not need to be included
-//
-// @include font-face( 'JosefinSans-Bold' );
-// 
-// To apply the font to an element, use the font-family property
-// The value needs to be the same as the font-face being used
-//
-// .element {
-//     font-family: 'JosefinSans-Bold';
-// }
+// @param $font-family: The font file name without the file extension
 
 @mixin font-face( $font-family ) {
 	@font-face {

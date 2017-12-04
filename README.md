@@ -81,3 +81,21 @@ Vendor prefixes.
     @include prefix( 'border-radius', 5px, webkit );
 }
 ```
+
+@font-face
+
+The `@include` directive is used to import font files into the framework. File extensions do not need to be included. Here, we are using the `JosefinSans-Bold` font.
+
+Font files should be placed within the `dist/font` directory.
+
+```
+@include font-face( 'JosefinSans-Bold' );
+```
+
+To apply the font to an element, use the `font-family` property. The value needs to be the same as the filename being used.
+
+```
+.element {
+    font-family: 'JosefinSans-Bold';
+}
+```
