@@ -2,13 +2,6 @@
 // @param $prop: property
 // @param $val: value
 // @param $prefixes: optional list of prefixes to be applied
-//
-// example:
-//
-// .element {
-//     @include prefix( 'border-radius', 5px, webkit moz ms o );
-// }
-//
 
 @mixin prefix( $prop, $val, $prefixes: webkit moz ms o ) {
 	@if $prefixes {

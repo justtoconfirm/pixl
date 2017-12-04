@@ -63,6 +63,7 @@ Vendor prefixes.
 /*
 All vendor prefixes will be applied
 */
+
 .element {
     @include prefix( 'border-radius', 5px );
 }
@@ -74,6 +75,7 @@ All vendor prefixes will be applied
 /*
 Only the webkit vendor prefix will be applied
 */
+
 .element {
     @include prefix( 'border-radius', 5px, webkit );
 }
