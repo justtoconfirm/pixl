@@ -82,7 +82,7 @@ Vendor prefixes.
 }
 ```
 
-@font-face
+*@font-face*
 
 The `@include` directive is used to import font files into the framework. File extensions do not need to be included. Here, we are using the `JosefinSans-Bold` font.
 
