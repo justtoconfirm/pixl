@@ -34,6 +34,13 @@ $ npm version minor
 $ git push
 ```
 
+You may have to sometimes use the `--force` flag if errors occur in the terminal.
+
+```
+$ npm version minor --force
+$ git push
+```
+
 ## Documentation
 
 ### Utility Classes
