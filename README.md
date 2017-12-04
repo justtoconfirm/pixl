@@ -26,7 +26,7 @@ $ npm run build
 Applying utility classes to HTML:
 
 ```
-<div class=".text-center"> ... </div>
+<div class='text-center'> ... </div>
 ```
 
 Text alignment.
