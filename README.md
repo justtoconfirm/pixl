@@ -19,6 +19,21 @@ $ npm install
 $ npm run build
 ```
 
+## Updating Version
+
+Update `package.json` version number when on the `master` branch. This can be either: 
+
+* Major - x.0.0
+* Minor - 0.x.0
+* Patch - 0.0.x
+
+Pixl follows [Semantic Versioning](https://semver.org/).
+
+```
+$ npm version minor
+$ git push
+```
+
 ## Documentation
 
 ### Utility Classes
