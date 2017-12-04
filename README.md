@@ -19,6 +19,29 @@ $ npm install
 $ npm run build
 ```
 
+## Checkout new branch
+
+Create a new feature branch from the `master` branch in GitHub.
+
+```
+$ git fetch
+$ git checkout <branch_name>
+```
+
+## Merge branch
+
+```
+$ git checkout <branch_name>
+$ git merge <branch_name_to_merge>
+$ git push
+```
+
+## Delete branch
+
+```
+$ git branch -d <branch_name>
+```
+
 ## Updating Version
 
 Update `package.json` version number when on the `master` branch. This can be either: 
