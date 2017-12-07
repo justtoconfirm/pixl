@@ -100,13 +100,13 @@ In this example, we are using the `JosefinSans-Bold` font. The file extension is
 @include font-face( 'JosefinSans-Bold' );
 ```
 
-The `font-style` and `font-weight` properties can also be applied. Should no `font-style` or `font-weight` value be provided, the properties will not be included in the CSS output.
+The `font-style` and `font-weight` properties can also be applied. Should no value be provided, the properties will not be included in the CSS output.
 
 ```
 @include font-face( 'JosefinSans-Bold', italic, bold );
 
 // Just the font-style property
-@include font-face( 'JosefinSans-Bold', italic );
+@include font-face( 'JosefinSans-Bold', italic, null );
 
 // Just the font-weight property
 @include font-face( 'JosefinSans-Bold', null, bold );
@@ -116,8 +116,8 @@ The `font-style` and `font-weight` properties can also be applied. Should no `fo
 
 | Property              | Values                                                                 |
 | --------------------- | ---------------------------------------------------------------------- | 
-| `font-style`          | normal | italic | oblique                                              |
-| `font-weight`         | normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900    |
+| `font-style`          | normal / italic / oblique                                              |
+| `font-weight`         | normal / bold / 100 / 200 / 300 / 400 / 500 / 600 / 700 / 800 / 900    |
 
 
 Apply the font to an element using the `font-family` property. Use the font name as the value, again without the file extension.
