@@ -128,6 +128,14 @@ Apply the font to an element using the `font-family` property. Use the font name
 }
 ```
 
+Further font values can be listed within the `font-family` property to provide a fallback should the main font be unavailable.
+
+```
+.element {
+    font-family: 'JosefinSans-Bold', Gill Sans Extrabold, sans-serif;
+}
+```
+
 ### Mixins
 
 **Prefixes**
