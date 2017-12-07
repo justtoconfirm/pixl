@@ -76,18 +76,61 @@ Applying utility classes to HTML:
 
 **Text alignment**
 
-| Class              | Description                                                     |
-| ------------------ | --------------------------------------------------------------- | 
-| `.text-center`     | Centre align text                                               |
-| `.text-left`       | Left align text                                                 |
-| `.text-right`      | Right align text                                                | 
-| `.text-capitalize` | Capitalizes the first letter of each word in the selected text  |
-| `.text-lowercase`  | Makes all of the letters in the selected text lowercase         |
-| `.text-uppercase`  | Makes all of the letters in the selected text uppercase         | 
+| Class              | Description                                                            |
+| ------------------ | ---------------------------------------------------------------------- | 
+| `.text-center`     | Centre align text                                                      |
+| `.text-left`       | Left align text                                                        |
+| `.text-right`      | Right align text                                                       | 
+| `.text-capitalize` | Capitalizes the first letter of each word in the selected text         |
+| `.text-lowercase`  | All of the letters in the selected text become lowercase               |
+| `.text-uppercase`  | All of the letters in the selected text become uppercase               | 
+
+
+### Font
+
+**@font-face**
+
+Place the font files within the `dist/font` directory.
+
+The `@include` directive is used to import the font files into the Pixl library. 
+
+In this example, we are using the `JosefinSans-Bold` font. The file extension is not needed to use the font.
+
+```
+@include font-face( 'JosefinSans-Bold' );
+```
+
+The `font-style` and `font-weight` properties can also be applied. Should no `font-style` or `font-weight` value be provided, the properties will not be included in the CSS output.
+
+```
+@include font-face( 'JosefinSans-Bold', italic, bold );
+
+// Just the font-style property
+@include font-face( 'JosefinSans-Bold', italic );
+
+// Just the font-weight property
+@include font-face( 'JosefinSans-Bold', null, bold );
+```
+
+**Font Properties**
+
+| Property              | Values                                                                 |
+| --------------------- | ---------------------------------------------------------------------- | 
+| `font-style`          | normal | italic | oblique                                              |
+| `font-weight`         | normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900    |
+
+
+Apply the font to an element using the `font-family` property. Use the font name as the value, again without the file extension.
+
+```
+.element {
+    font-family: 'JosefinSans-Bold';
+}
+```
 
 ### Mixins
 
-**Vendor prefixes**
+**Prefixes**
 
 ```
 // All vendor prefixes will be applied
@@ -102,23 +145,5 @@ Applying utility classes to HTML:
 // Only the webkit vendor prefix will be applied
 .element {
     @include prefix( 'border-radius', 5px, webkit );
-}
-```
-
-**@font-face**
-
-The `@include` directive is used to import font files into the framework. File extensions do not need to be included. Here, we are using the `JosefinSans-Bold` font.
-
-Font files should be placed within the `dist/font` directory.
-
-```
-@include font-face( 'JosefinSans-Bold' );
-```
-
-To apply the font to an element, use the `font-family` property. The value needs to be the same as the filename being used.
-
-```
-.element {
-    font-family: 'JosefinSans-Bold';
 }
 ```
