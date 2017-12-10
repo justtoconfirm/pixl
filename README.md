@@ -74,6 +74,14 @@ Applying utility classes to HTML:
 <div class='text-center'> ... </div>
 ```
 
+**Font style**
+
+| Class              | Description                                                            |
+| ------------------ | ---------------------------------------------------------------------- | 
+| `.italic`          | The browser displays an italic font style                              |
+| `.normal`          | The browser displays a normal font style. This is default              |
+| `.oblique`         | The browser displays an oblique font style                             |
+
 **Text alignment**
 
 | Class              | Description                                                            |
