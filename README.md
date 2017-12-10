@@ -80,7 +80,12 @@ Applying utility classes to HTML:
 | ------------------ | ---------------------------------------------------------------------- | 
 | `.text-center`     | Centre align text                                                      |
 | `.text-left`       | Left align text                                                        |
-| `.text-right`      | Right align text                                                       | 
+| `.text-right`      | Right align text                                                       |  
+
+**Text transform**
+
+| Class              | Description                                                            |
+| ------------------ | ---------------------------------------------------------------------- | 
 | `.text-capitalize` | Capitalizes the first letter of each word in the selected text         |
 | `.text-lowercase`  | All of the letters in the selected text become lowercase               |
 | `.text-uppercase`  | All of the letters in the selected text become uppercase               | 
@@ -112,7 +117,7 @@ The `font-style` and `font-weight` properties can also be applied. Should no val
 @include font-face( 'JosefinSans-Bold', null, bold );
 ```
 
-**Font Properties**
+The following font properties can be used:
 
 | Property              | Values                                                                 |
 | --------------------- | ---------------------------------------------------------------------- | 
