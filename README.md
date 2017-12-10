@@ -78,15 +78,15 @@ Applying utility classes to HTML:
 
 | Class              | Description                                                            |
 | ------------------ | ---------------------------------------------------------------------- | 
-| `.text-center`     | Centre align text                                                      |
-| `.text-left`       | Left align text                                                        |
-| `.text-right`      | Right align text                                                       |  
+| `.text-center`     | Centre align the letters in the selected text                          |
+| `.text-left`       | Left align the letters in the selected text                            |
+| `.text-right`      | Right align the letters in the selected text                           |  
 
 **Text transform**
 
 | Class              | Description                                                            |
 | ------------------ | ---------------------------------------------------------------------- | 
-| `.text-capitalize` | Capitalizes the first letter of each word in the selected text         |
+| `.text-capitalize` | Capitalizes the first letter of each word in the text                  |
 | `.text-lowercase`  | All of the letters in the selected text become lowercase               |
 | `.text-uppercase`  | All of the letters in the selected text become uppercase               | 
 
