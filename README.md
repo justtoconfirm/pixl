@@ -82,6 +82,14 @@ Applying utility classes to HTML:
 | `.normal`          | The browser displays a normal font style. This is default              |
 | `.oblique`         | The browser displays an oblique font style                             |
 
+**Font weight**
+
+| Class              | Description                                                            |
+| ------------------ | ---------------------------------------------------------------------- | 
+| `.bold`            | Defines thick characters                                               |
+| `.bolder`          | Defines thicker characters                                             |
+| `.lighter`         | Defines lighter characters                                             |
+
 **Text alignment**
 
 | Class              | Description                                                            |
