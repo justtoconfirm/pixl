@@ -1,7 +1,7 @@
 // Mixin to apply @font-face
 // @param $font-family: Name of the font file without the file extension
-// @param $font-style [optional]: Defines how the font should be styled [normal | italic | oblique]
-// @param $font-weight [optional]: Defines the boldness of the font [normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900]
+// @param $font-style [optional]: Defines how the font should be styled [ normal | italic | oblique ]
+// @param $font-weight [optional]: Defines the boldness of the font [ normal | bold | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 ]
 // font-style and font-weight properties will not be included if no value is provided - value is null be default
 
 @mixin font-face( $font-family, $font-style: null, $font-weight: null ) {

@@ -159,6 +159,20 @@ Further font values can be listed within the `font-family` property to provide a
 
 ### Mixins
 
+**Font Size**
+
+The base font size is 16px. This mixin will output the font-size in rem and a pixel fallback for older browsers.
+
+// Will output rem and pixel font sizes 
+.element {
+    @include font-size( 20 );
+}
+
+// Set the base font size to be 14px
+.element {
+    @include font-size( 20, 14 );
+}
+
 **Prefixes**
 
 ```

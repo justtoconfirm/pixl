@@ -1,7 +1,7 @@
 // Mixin to apply prefixes
 // @param $prop: Property
 // @param $val: Value
-// @param $prefixes [optional]: List of prefixes to be applied [webkit | moz | ms | o]
+// @param $prefixes [optional]: List of prefixes to be applied [ webkit | moz | ms | o ]
 
 @mixin prefix( $prop, $val, $prefixes: webkit moz ms o ) {
 	@if $prefixes {
