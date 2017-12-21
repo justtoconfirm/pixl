@@ -1,6 +1,6 @@
 {
   "name": "pixl",
-  "version": "0.4.0",
+  "version": "0.8.0",
   "description": "Front-end web library",
   "scripts": {
     "build": "node-sass --include-path scss src/scss/main.scss dist/css/pixl.css && npm run beautify-css && npm run minify-css",
