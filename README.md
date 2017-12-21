@@ -104,8 +104,22 @@ Applying utility classes to HTML:
 | ------------------ | ---------------------------------------------------------------------- | 
 | `.text-capitalize` | Capitalizes the first letter of each word in the text                  |
 | `.text-lowercase`  | All of the letters in the selected text become lowercase               |
-| `.text-uppercase`  | All of the letters in the selected text become uppercase               | 
+| `.text-uppercase`  | All of the letters in the selected text become uppercase               |
 
+**Alignment**
+
+| Class              | Description                                                            |
+| ------------------ | ---------------------------------------------------------------------- | 
+| `.left`            | Left align                                                             |
+| `.right`           | Right align                                                            |
+
+The `.clearfix` class should be added to the parent element when using the alignment classes of `.left` or `.right`.
+
+```
+<div class='clearfix'>
+    <div class='right'> ... </div>
+</div>
+```
 
 ### Font
 
