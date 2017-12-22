@@ -110,6 +110,7 @@ Applying utility classes to HTML:
 
 | Class              | Description                                                            |
 | ------------------ | ---------------------------------------------------------------------- | 
+| `.center`          | Centre align a block element. Clearfix not required                    |
 | `.left`            | Left align                                                             |
 | `.right`           | Right align                                                            |
 
@@ -119,6 +120,14 @@ The `.clearfix` class should be added to the parent element when using the align
 <div class='clearfix'>
     <div class='right'> ... </div>
 </div>
+```
+
+Should you need to centre align a block element, use the `.center` class. No clearfix is required, but a class will be needed to provide a width (can be in pixels). 
+
+In this example, the `.box` class provides a width for the container.
+
+```
+<div class='box center'> ... </div>
 ```
 
 ### Font
