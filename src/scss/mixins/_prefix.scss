@@ -1,9 +1,12 @@
-// Mixin to apply prefixes
-// @param $prop: Property
-// @param $val: Value
-// @param $prefixes [optional]: List of prefixes to be applied [ webkit | moz | ms | o ]
-
-@mixin prefix( $prop, $val, $prefixes: webkit moz ms o ) {
+//
+//	Prefix mixin
+//	Apply Browser prefixing to CSS declarations
+//
+//	@param $prop:		CSS property name
+//	@param $val:		CSS property value
+//	@param $prefixes:	Browser prefixes to be applied
+//
+@mixin prefix($prop, $val, $prefixes: webkit moz ms o) {
 	@if $prefixes {
 		// Loop through each prefix listed
 		@each $prefix in $prefixes {
