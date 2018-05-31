@@ -3,10 +3,5 @@
 @import 'mixins/font-size';
 @import 'mixins/prefix';
 
-// Utility classes
-@import 'util/clearfix';
-@import 'util/alignment';
-@import 'util/font-style';
-@import 'util/font-weight';
-@import 'util/text-align';
-@import 'util/text-transform';
+// Utilities
+@import 'util/helpers';

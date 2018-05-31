@@ -1,4 +1,5 @@
 # Pixl
+
 Front-end web library
 
 ## Clone Repository
@@ -57,78 +58,16 @@ $ npm version minor
 $ git push
 ```
 
-You may have to sometimes use the `--force` flag if errors occur in the terminal.
-
-```
-$ npm version minor --force
-$ git push
-```
-
 ## Documentation
 
-### Utility Classes
-
-Applying utility classes to HTML:
-
-```
-<div class='text-center'> ... </div>
-```
-
-**Font style**
+### Helper Classes
 
 | Class              | Description                                                            |
 | ------------------ | ---------------------------------------------------------------------- | 
-| `.italic`          | The browser displays an italic font style                              |
-| `.normal`          | The browser displays a normal font style. This is default              |
-| `.oblique`         | The browser displays an oblique font style                             |
+| `.text-center`     | Centre align the inner content of a block element                      |
+| `.text-left`       | Left align the inner content of a block element                        |
+| `.text-right`      | Right align the inner content of a block element                       |  
 
-**Font weight**
-
-| Class              | Description                                                            |
-| ------------------ | ---------------------------------------------------------------------- | 
-| `.bold`            | Defines thick characters                                               |
-| `.bolder`          | Defines thicker characters                                             |
-| `.lighter`         | Defines lighter characters                                             |
-
-**Text alignment**
-
-| Class              | Description                                                            |
-| ------------------ | ---------------------------------------------------------------------- | 
-| `.text-center`     | Centre align the letters in the selected text                          |
-| `.text-left`       | Left align the letters in the selected text                            |
-| `.text-right`      | Right align the letters in the selected text                           |  
-
-**Text transform**
-
-| Class              | Description                                                            |
-| ------------------ | ---------------------------------------------------------------------- | 
-| `.text-capitalize` | Capitalizes the first letter of each word in the text                  |
-| `.text-lowercase`  | All of the letters in the selected text become lowercase               |
-| `.text-uppercase`  | All of the letters in the selected text become uppercase               |
-
-**Alignment**
-
-| Class              | Description                                                            |
-| ------------------ | ---------------------------------------------------------------------- | 
-| `.center`          | Centre align a block element. Clearfix not required                    |
-| `.left`            | Left align                                                             |
-| `.right`           | Right align                                                            |
-
-The `.clearfix` class should be added to the parent element when using the alignment classes of `.left` or `.right`.
-
-```
-<div class='clearfix'>
-    <div class='right'> ... </div>
-</div>
-```
-
-Should you need to centre align a block element, use the `.center` class. No clearfix is required, but a class will be needed to provide a width (can be in pixels). 
-
-In this example, the `.box` class provides a width for the container.
-
-```
-<div class='box center'> ... </div>
-```
 
 ### Font
 

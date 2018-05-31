@@ -1,56 +1,3 @@
-.clearfix {
-  *zoom: 1;
-}
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.normal {
-  font-style: normal;
-  font-weight: normal;
-}
-
-.oblique {
-  font-style: oblique;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.bolder {
-  font-weight: bolder;
-}
-
-.lighter {
-  font-weight: lighter;
-}
-
 .text-center {
   text-align: center;
 }
@@ -61,16 +8,4 @@
 
 .text-right {
   text-align: right;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
-}
-
-.text-lowercase {
-  text-transform: lowercase;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
 }
