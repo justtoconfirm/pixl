@@ -67,3 +67,7 @@ $ git push
 | `.text-center`     | Centre align the inner content of a block element                      |
 | `.text-left`       | Left align the inner content of a block element                        |
 | `.text-right`      | Right align the inner content of a block element                       |  
+
+### Licence
+
+MIT
