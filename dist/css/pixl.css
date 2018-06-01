@@ -10,6 +10,18 @@
   font-weight: bold;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 .text-center {
   text-align: center;
 }
