@@ -64,6 +64,9 @@ $ git push
 
 | Class              | Description                                                            |
 | ------------------ | ---------------------------------------------------------------------- | 
+| `.hide`            | Hides element (display: none)                                          |
+| `.invisible`       | Hidden element that takes up space (visibility: hidden)                |
+| `.bold`            | Set the font weight to be bold                                         |
 | `.text-center`     | Centre align the inner content of a block element                      |
 | `.text-left`       | Left align the inner content of a block element                        |
 | `.text-right`      | Right align the inner content of a block element                       |  
