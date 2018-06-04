@@ -43,6 +43,14 @@ $ git push
 $ git branch -d <branch_name>
 ```
 
+## Remove file
+
+```
+$ git rm <file_name>
+$ git commit -m "Removed file"
+$ git push
+```
+
 ## Updating Version
 
 Update `package.json` version number when on the `master` branch. This can be either: 
