@@ -4,9 +4,9 @@
 //  Values should be provided in pixels without 'px' units
 //  The 'px' fallback is used for older browsers that do not support 'rem'
 //
-//  @param $prop:           CSS property name
-//  @param $px:             Unitless pixel value/size: 8 vs 8px
-//  @param $basefontsize:   Base font size. Default is 16
+//  @param $prop:           	CSS property name
+//  @param $px:             	Unitless pixel value/size: 8 vs 8px
+//  @param $base-font-size:   	Base font size variable value. Default is 16
 //
 //  Example usage:
 //  .selector {
