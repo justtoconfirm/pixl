@@ -86,9 +86,10 @@ $ git push
 
 ### Lists
 
-| Class              | Description                                                                                 |
-| ------------------ | ------------------------------------------------------------------------------------------- | 
-| `.bare-list`       | Remove bullet points from list elements and remove padding-left to align list with content  |
+| Class                | Description                                                                                 |
+| -------------------- | ------------------------------------------------------------------------------------------- | 
+| `.bare-list`         | Remove bullet points from list elements and remove padding-left to align list with content  |
+| `.horizontal-list`   | Horizontal list                                                                             |
 
 Example:
 

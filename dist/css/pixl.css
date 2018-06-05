@@ -60,3 +60,18 @@ html {
   list-style-type: none;
   padding-left: 0;
 }
+
+.horizontal-list {
+  padding-left: 0;
+  text-decoration: none;
+}
+
+.horizontal-list li {
+  margin-right: 0.9375rem;
+  margin-right: 15px;
+  display: inline;
+}
+
+.horizontal-list li:last-child {
+  margin-right: 0;
+}
