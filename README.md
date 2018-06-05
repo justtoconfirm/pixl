@@ -94,8 +94,8 @@ Example:
 
 ```html
 <ul class="bare-list">
-	<li>One</li>
-	<li>Two</li>
+   <li>One</li>
+   <li>Two</li>
 </ul>
 ```
 
