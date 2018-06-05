@@ -1,9 +1,9 @@
 html {
-	box-sizing: border-box;
+	@include prefix(box-sizing, border-box, webkit moz);
 }
 
 *,
 *:before,
 *:after {
-	box-sizing: inherit;
+	@include prefix(box-sizing, inherit, webkit moz);
 }
