@@ -82,7 +82,22 @@ $ git push
 | `.text-left`       | Left align the inner content of a block element                        |
 | `.text-right`      | Right align the inner content of a block element                       |
 | `.no-margin`       | Set the margin to 0                                                    |
-| `.no-padding`      | Set the padding to 0                                                   |  
+| `.no-padding`      | Set the padding to 0                                                   | 
+
+### Lists
+
+| Class              | Description                                                                                 |
+| ------------------ | ------------------------------------------------------------------------------------------- | 
+| `.bare-list`       | Remove bullet points from list elements and remove padding-left to align list with content  |
+
+Example:
+
+```html
+<ul class="bare-list">
+	<li>One</li>
+	<li>Two</li>
+</ul>
+```
 
 ### Licence
 
