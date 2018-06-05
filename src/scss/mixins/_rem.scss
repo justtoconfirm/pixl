@@ -14,13 +14,13 @@
 //      @include rem(margin, 12);
 //  }
 //
-@mixin rem($prop, $px: $basefontsize) {
+@mixin rem($prop, $px: $base-font-size) {
 
     $remvalues: null;
     $pxvalues: null;
 
     @each $pxvalue in $px {
-        $remvalues: append($remvalues, ($pxvalue / $basefontsize) *1rem);
+        $remvalues: append($remvalues, ($pxvalue / $base-font-size) *1rem);
         $pxvalues: append($pxvalues, ($pxvalue) *1px);
     }
 
