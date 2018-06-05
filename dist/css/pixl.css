@@ -12,6 +12,14 @@ html {
   box-sizing: inherit;
 }
 
+/*
+	Remove the margin in all browsers
+*/
+
+body {
+  margin: 0;
+}
+
 .hide {
   display: none;
 }

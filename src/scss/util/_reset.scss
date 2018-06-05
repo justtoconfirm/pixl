@@ -7,3 +7,10 @@ html {
 *:after {
 	@include prefix(box-sizing, inherit, webkit moz);
 }
+
+/*
+	Remove the margin in all browsers
+*/
+body {
+	margin: 0;
+}
