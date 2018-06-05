@@ -3,6 +3,7 @@
 
 // Mixins
 //@import 'mixins/font';
+@import 'mixins/opacity';
 @import 'mixins/prefix';
 @import 'mixins/rem';
 
@@ -16,3 +17,7 @@
 
 // Shame
 @import 'shame/shame';
+
+.test {
+	@include opacity(0.8);
+}
