@@ -1,7 +1,10 @@
+// Variables
+@import 'variables/size';
+
 // Mixins
 //@import 'mixins/font';
-//@import 'mixins/font-size';
 @import 'mixins/prefix';
+@import 'mixins/rem';
 
 // Utilities
 @import 'util/reset';

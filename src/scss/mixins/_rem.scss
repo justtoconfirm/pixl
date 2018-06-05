@@ -1,0 +1,30 @@
+//
+//  rem mixin
+//  Apply Browser prefixing to CSS declarations
+//  Values should be provided in pixels without 'px' units
+//  The 'px' fallback is used for older browsers that do not support 'rem'
+//
+//  @param $prop:           CSS property name
+//  @param $px:             Unitless pixel value/size: 8 vs 8px
+//  @param $basefontsize:   Base font size. Default is 16
+//
+//  Example usage:
+//  .selector {
+//      @include rem(padding, 8, 16, 8);
+//      @include rem(margin, 12);
+//  }
+//
+@mixin rem($prop, $px: $basefontsize) {
+
+    $remvalues: null;
+    $pxvalues: null;
+
+    @each $pxvalue in $px {
+        $remvalues: append($remvalues, ($pxvalue / $basefontsize) *1rem);
+        $pxvalues: append($pxvalues, ($pxvalue) *1px);
+    }
+
+    // Output properties with rem and pixel values
+    #{$prop}: $remvalues;   // rem
+    #{$prop}: $pxvalues;    // px
+}
