@@ -112,6 +112,7 @@ Example:
 ```html
 <button class="btn" type="button">Button</button>
 <button class="btn" type="submit">Submit</button>
+
 <a href="#" class="btn" type="button">Button</button>
 ```
 
