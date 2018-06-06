@@ -3,8 +3,8 @@
 //  Set the theme for elements
 //
 //  Initialise our variables as 'null' when used outside of the mixin
-$btn-background-color: null;         // Output nothing
-$btn-color: null;       // Output nothing
+$btn-background-color: null;    // Output nothing
+$btn-color: null;               // Output nothing
 
 //  @param $themes:    Map of themes to use
 @mixin theme($themes: $themes) {
