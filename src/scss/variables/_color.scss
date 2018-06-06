@@ -1,9 +1,13 @@
 // Colour names based on: http://chir.ag/projects/name-that-color/
 
 // White
-$white: #fff;
+$white: #fff !default;
 // Black
-$black: #000;
+$black: #000 !default;
 
 // Blue
-$denim: #1779ba;
+$denim: #1779ba !default;
+
+// Theme: primary
+$primary: $denim;		// Background
+$secondary: $white;		// Foreground

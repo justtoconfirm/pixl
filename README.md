@@ -106,6 +106,7 @@ Example:
 | Class                | Description                                                                                 |
 | -------------------- | ------------------------------------------------------------------------------------------- | 
 | `.btn`               | Button                                                                                      |
+| `.btn--primary`      | Modifier class added to button to set the primary theme                                     |
 
 Example:
 
@@ -113,7 +114,11 @@ Example:
 <button class="btn" type="button">Button</button>
 <button class="btn" type="submit">Submit</button>
 
-<a href="#" class="btn" type="button">Button</button>
+<a href="#" class="btn">Button</button>
+```
+
+```html
+<button class="btn btn--primary" type="button">Button</button>
 ```
 
 ### Licence
