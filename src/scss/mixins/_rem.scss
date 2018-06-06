@@ -16,15 +16,15 @@
 //
 @mixin rem($prop, $px: $base-font-size) {
 
+	$pxvalues: null;
     $remvalues: null;
-    $pxvalues: null;
 
     @each $pxvalue in $px {
+		$pxvalues: append($pxvalues, ($pxvalue) *1px);
         $remvalues: append($remvalues, ($pxvalue / $base-font-size) *1rem);
-        $pxvalues: append($pxvalues, ($pxvalue) *1px);
     }
 
     // Output properties with rem and pixel values
-    #{$prop}: $remvalues;   // rem
     #{$prop}: $pxvalues;    // px
+    #{$prop}: $remvalues;   // rem
 }
