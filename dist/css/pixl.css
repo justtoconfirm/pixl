@@ -83,6 +83,16 @@ body {
   -webkit-appearance: none;
 }
 
+.btn--unicorn {
+  background-color: hotpink;
+  color: pink;
+}
+
+.btn--dragon {
+  background-color: firebrick;
+  color: red;
+}
+
 .bare-list {
   list-style-type: none;
   padding-left: 0;

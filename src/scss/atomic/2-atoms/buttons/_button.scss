@@ -1,6 +1,10 @@
 .btn {
 	@include rem(padding, 12);
 	@include rem(font-size, 15);
+	@include theme {
+		background-color: $primary;
+		color: $secondary;
+	}
 	border: 1px solid transparent;
 	display: inline-block;
 	cursor: pointer;

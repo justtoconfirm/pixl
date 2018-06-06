@@ -1,11 +1,15 @@
 // Variables
 @import 'variables/size';
 
+// Themes
+@import 'themes/themes';
+
 // Mixins
 //@import 'mixins/font';
 @import 'mixins/opacity';
 @import 'mixins/prefix';
 @import 'mixins/rem';
+@import 'mixins/theme';
 
 // Utilities
 @import 'util/reset';
