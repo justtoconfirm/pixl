@@ -2,8 +2,8 @@
 	@include rem(padding, 12);
 	@include rem(font-size, 15);
 	@include theme {
-		background-color: $primary;
-		color: $secondary;
+		background-color: $btn-background-color;
+		color: $btn-color;
 	}
 	border: 1px solid transparent;
 	display: inline-block;

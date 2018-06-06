@@ -1,14 +1,10 @@
 $themes: (
 	'primary': (
-		'primary': $primary,
-		'secondary': $secondary
+		'btn-background-color': $primary-theme-btn-background-color,
+		'btn-color': $primary-theme-btn-color
 	),
-	'unicorn': (
-		'primary': hotpink,
-		'secondary': pink
-	),
-	'dragon': (
-		'primary': firebrick,
-		'secondary': red
+	'alert': (
+		'btn-background-color': $alert-theme-btn-background-color,
+		'btn-color': $alert-theme-btn-color
 	)
 ) !default;

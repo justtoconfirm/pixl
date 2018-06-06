@@ -107,6 +107,7 @@ Example:
 | -------------------- | ------------------------------------------------------------------------------------------- | 
 | `.btn`               | Button                                                                                      |
 | `.btn--primary`      | Modifier class added to button to set the primary theme                                     |
+| `.btn--alert`        | Modifier class added to button to set the alert theme                                       |
 
 Example:
 
@@ -117,8 +118,11 @@ Example:
 <a href="#" class="btn">Button</button>
 ```
 
+Button themes:
+
 ```html
 <button class="btn btn--primary" type="button">Button</button>
+<button class="btn btn--alert" type="button">Button</button>
 ```
 
 ### Licence
