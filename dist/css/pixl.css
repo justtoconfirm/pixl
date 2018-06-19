@@ -68,6 +68,13 @@ body {
   position: fixed;
 }
 
+code {
+  display: block;
+  font-family: monospace;
+  overflow-x: scroll;
+  white-space: pre;
+}
+
 .btn {
   padding: 12px;
   padding: 0.75rem;
@@ -114,14 +121,6 @@ body {
   margin-right: 0;
 }
 
-pre {
-  background-color: #000;
-  color: #fff;
-  margin-top: 0;
-  padding: 0 25px;
-  tab-size: 2;
-}
-
 .code-block[rel=js]::before {
   background-color: #ff9800;
   color: #fff;
@@ -148,7 +147,7 @@ pre {
 
 .code-block {
   font-size: 14px;
-  whites-space: pre-wrap;
+  white-space: pre-wrap;
 }
 
 .code-block:before {
@@ -157,6 +156,7 @@ pre {
   padding: 10px 0;
   text-indent: 15px;
   width: 100%;
+  font-family: inherit;
 }
 
 .code-block .comment {
