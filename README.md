@@ -62,7 +62,7 @@ Update `package.json` version number when on the `master` branch. This can be ei
 Pixl follows [Semantic Versioning](https://semver.org/).
 
 ```
-$ npm version minor
+$ npm version <update_type>
 $ git push
 ```
 
@@ -123,6 +123,19 @@ Button themes:
 ```html
 <button class="btn btn--primary" type="button">Button</button>
 <button class="btn btn--alert" type="button">Button</button>
+```
+
+### Code
+
+Example:
+
+```html
+<pre>
+	<code>
+		&lt;html&gt;
+			&lt;body&gt;
+	</code>
+</pre>
 ```
 
 ### Licence
