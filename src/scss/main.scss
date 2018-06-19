@@ -3,6 +3,7 @@
 @import 'variables/size';
 
 // Themes
+@import 'themes/code';
 @import 'themes/themes';
 
 // Mixins
@@ -24,6 +25,8 @@
 
 @import 'atomic/2-atoms/lists/bare-list';
 @import 'atomic/2-atoms/lists/horizontal-list';
+
+@import 'atomic/2-atoms/panels/code-panel';
 
 // Shame
 @import 'shame/shame';

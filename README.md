@@ -138,6 +138,22 @@ Example:
 </pre>
 ```
 
+To create a code-panel with a title and colour-coded title bar:
+
+```html
+<pre class="code-panel" rel="html" data-title="HTML example: index.html">
+   <code>
+      &lt;html&gt;
+         &lt;body&gt;
+   </code>
+</pre>
+```
+
+| rel attribute        | Language                                                                                    |
+| -------------------- | ------------------------------------------------------------------------------------------- | 
+| `html`               | HTML                                                                                        |
+| `css`                | CSS (Cascading Style Sheets)                                                                |
+
 ### Licence
 
 MIT
