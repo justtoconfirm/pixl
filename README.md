@@ -131,10 +131,10 @@ Example:
 
 ```html
 <pre>
-	<code>
-		&lt;html&gt;
-			&lt;body&gt;
-	</code>
+   <code>
+      &lt;html&gt;
+         &lt;body&gt;
+   </code>
 </pre>
 ```
 
