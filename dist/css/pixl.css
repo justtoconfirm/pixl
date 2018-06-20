@@ -235,10 +235,19 @@ code {
   background-color: #cc4b37;
 }
 
-span,
-.box {
+.panel {
+  padding: 15px;
+  padding: 0.9375rem;
   display: block;
-  background: #ffb283;
-  padding: 1em 0;
-  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.panel--primary {
+  background-color: #1779ba;
+  color: #fff;
+}
+
+.panel--alert {
+  background-color: #cc4b37;
+  color: #fff;
 }
