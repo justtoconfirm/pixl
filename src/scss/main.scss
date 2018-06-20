@@ -1,5 +1,6 @@
 // Variables
 @import 'variables/color';
+@import 'variables/grid';
 @import 'variables/size';
 
 // Themes
@@ -14,6 +15,8 @@
 @import 'mixins/theme';
 
 // Utilities
+@import 'util/clearfix';
+@import 'util/grid';
 @import 'util/reset';
 @import 'util/helpers';
 
