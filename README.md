@@ -125,6 +125,23 @@ Button themes:
 <button class="btn btn--alert" type="button">Button</button>
 ```
 
+### Panels
+
+| Class                | Description                                                                                 |
+| -------------------- | ------------------------------------------------------------------------------------------- | 
+| `.panel`             | Panel with background colour                                                                |
+| `.panel--primary`    | Modifier class added to panel to set the primary theme                                      |
+| `.panel--alert`      | Modifier class added to panel to set the alert theme                                        |
+
+Example:
+
+```html
+<div class="panel"> ... </div>
+
+<div class="panel panel--primary"> ... </div>
+<div class="panel panel--alert"> ... </div>
+```
+
 ### Code
 
 Example:
@@ -153,6 +170,29 @@ To create a code-panel with a title and colour-coded title bar:
 | -------------------- | ------------------------------------------------------------------------------------------- | 
 | `html`               | HTML                                                                                        |
 | `css`                | CSS (Cascading Style Sheets)                                                                |
+
+### Grid
+
+```html
+<section class="wrapper">
+
+   <div class="row">
+      <div class="col-12">
+         Content here
+      </div>
+   </div>
+   
+   <div class="row">
+      <div class="col-6">
+         Content here
+      </div>
+      <div class="col-6">
+         Content here
+      </div>
+   </div>
+
+</section>
+```
 
 ### Licence
 
