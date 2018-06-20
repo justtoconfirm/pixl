@@ -69,6 +69,8 @@ body {
 }
 
 code {
+  padding: 20px 0px;
+  padding: 1.25rem 0rem;
   background-color: #f8f8f8;
   display: block;
   font-family: monospace;
