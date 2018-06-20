@@ -1,12 +1,30 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
 .wrapper,
 .row {
   *zoom: 1;
 }
 
 .wrapper:before,
-.row:before,
-.wrapper:after,
-.row:after {
+.row:before {
   content: " ";
   display: table;
 }
@@ -14,13 +32,8 @@
 .wrapper:after,
 .row:after {
   clear: both;
-}
-
-*,
-*:after,
-*:before {
-  margin: 0;
-  padding: 0;
+  content: " ";
+  display: table;
 }
 
 .wrapper {
@@ -90,28 +103,6 @@
   }
 }
 
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-/*
-	Remove the margin in all browsers
-*/
-
-body {
-  margin: 0;
-}
-
 .hide {
   display: none !important;
 }
@@ -168,6 +159,11 @@ code {
   font-family: monospace;
   overflow-x: auto;
   white-space: pre-wrap;
+}
+
+p {
+  margin: 15px 0px;
+  margin: 0.9375rem 0rem;
 }
 
 .btn {
